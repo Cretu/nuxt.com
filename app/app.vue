@@ -15,7 +15,7 @@ const { data: files } = useLazyFetch<ParsedContent[]>('/api/search.json', {
 })
 
 useHead({
-  titleTemplate: title => title ? `${title} · Nuxt` : 'Nuxt: The Intuitive Web Framework',
+  titleTemplate: title => title ? `${title} · Nuxt` : 'Nuxt: 大道至简的 Web 开发框架',
   meta: [
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
     { key: 'theme-color', name: 'theme-color', content: color }
